@@ -1,0 +1,43 @@
+Software design has three characteristics
+  1.) Manipulating information within data structures
+  2.) Arranging Memory
+  3.) Performance Characteristics of Data Structures
+ 
+ Algorithms are instructions that uses Sequence, Selection and Loops
+ 
+ Built in methods to manage data and their information are stringers, integers, floats, list, tuples, and dictionaries
+
+Variables are something that contains a value and an internal identifier 
+There are different variable types numbers,  string, list, tuple, dictionary
+** Example ** var = 1, var = "He" var = {"a":1,"b":2}, etc
+
+There are mutable and/or immutable type variables depending on the types.
+
+A Namespace provides a unique name to all objects in python, there are a total of three namespaces in python
+  1.) Built-in Namespace
+  2.) Global Namespace
+  3.) Local Namespace
+  
+If unsure about what namespace to use for scope, use **dir()**
+dir - lists the name of all objects in a scope 
+
+**Built-in Namespace* - Runs as long as python is running - Always there
+**Global Namespace** - Runs as long as program is running - There when user creates a module/variable in global
+**Local Namespace** - runs as long as function is running - There when created in a function
+
+Scope - Where an object can be accessed
+When a scope ends, the lifetime ends
+
+binding is a when a type is assigned to an object
+Python does not have binding, with the exception of using ctypes module 
+
+Garbage is wher ean object allocates memory to store the value
+Garbage collection is to deallocate memory space that's not used
+
+Two methods of Garabage collection
+  1.) Reference Counting - When a reference count of an object reaches 0, the object is deleted
+  2.) Generational Garbage Collection - When you add an object to itself and delete it, the reference count still exists
+    - **Three clean up methods from Generational Garbage Collection**
+      1.) gc.get_threshold() return the number of allocations
+      2.) gc.get_count() returns a tuple of values that represent the youngest generation to the oldest
+      3.) gc.collect() forces a cleanup
