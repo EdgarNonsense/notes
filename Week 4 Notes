@@ -1,0 +1,57 @@
+Objects are
+* Models of information & actions that can be done to them
+* Formally a collection of data(or attributes) & associated behaviors
+
+Oriented means directed towards
+
+The Three Object Oriented Terms
+*Object-Oriented Analysis (OOA)
+*Object-Oriented Design (OOD)
+*Object-Oriented Programming (OOP)
+
+**Object Oriented Analysis Phase**
+Key Questions
+1.) What is the task needed to be accomplished?
+2.) What is the goal of the task
+3.)Who needs to complete?
+4.) What information is required.
+
+**Object 0 Oriented Design**
+* the process of creating an implementation specification based on requirements
+* Utilizes a technique called Unified Modeling Language
+
+**Object - Oriented Programming**
+*Process of taking a designed program & converting it to a working program
+
+Objects are a collection of data with associated behaviors
+Classes are blueprints that describe objects
+
+Standard based diagram system
+ *Can describe the association between objects in a program
+ *Used to communicate complex programming concepts between non-technical & technical staff
+ 
+Class diagrams are used to show: Assciation, Inheritance, Aggregation, Composition, Dependency
+
+How to design UML?
+1.) Identify what you need to show
+  1.) use case diagram
+  2.) class diagram
+  3.) sequence diagram
+2.) create your diagram
+
+Class diagrams must specifcy class
+all the instances of an object have the same attributes
+
+Methods are like functions
+* accept parameters
+* return values
+
+thin about implementation process
+
+Factor what would be public interferace
+* attributes & methods that programs
+
+Information hiding hides how an object is implemented
+
+Encapsulation is like information hiding but also not like it
+In modeling, abstraction is about dealing with a level of detail appropriate for a task
