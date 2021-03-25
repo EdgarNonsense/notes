@@ -1,0 +1,40 @@
+Inheritance is the mechanism for deriving new classes from existing ones
+ * Parent - Child
+ * superclass - subclass
+Forms an is relationship
+
+Every object in python uses inheritance, 
+all classe are derived from the base class object
+
+to create inheritance from one class to another, 
+  * create your superclass, create your subclass, addp arenthese to the class name, and inside the parentheses put the superclass name
+  * all built in and data types can be extended
+
+any attributes or methods can be overriden
+in a subclass, give an attribute or method the same name as the element in the sublclass
+
+A subclass that inherits from more than one parent
+  * access attributesand method from both
+  
+  to fix diamond problem, use super()
+  super is designed to help with complicated multiple inheritances
+  
+  Polymorphism is
+  * Different behaviors happen depending on the subclass used
+  * Inheritance can then be used to simplify the design
+  * Details are encapsulated
+  
+ Inheritance is the most important reason to use polymorphism
+ a correct interface becomes interchangable
+ 
+ special error objects that we use when an error needs to be handled
+ 
+ all exceptions come from the BaseException
+  *Basexception is a superclass
+  * all the other exception are subclasses and extend the functionality
+  
+  use the term raise, with the class of the exception you want to raise
+  
+  Handling exceptions are done using Try/except
+  
+  If none of the built-ion exceptions meets your need, just build your own.
