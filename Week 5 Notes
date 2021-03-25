@@ -1,0 +1,49 @@
+Names for classes havbe the same rules as variables
+  * Must start with a letter or underscore
+  * can have letters, numbers, and underscores
+  
+Classes should by named with CapWords notation where each word starts with a capital
+creating a class needs the keyword **class**
+follow it by a name and a colon
+
+Class have attributes, methods, initializer, constructor and indentation.
+
+Attributes can be added anytime during initialization and after an object have been initialized
+<object>.<attribute> = <value>
+
+In python, everything is public unless made private
+
+Invoking actions is done via a method,
+method is identical to functions where you use def and take parameters inside the parentheses.
+Required to have an instance parameter called self.
+
+The self argument references the instance of an object
+ * Required to access attributes & methods inside a specific object
+ * Ties the class to the instance so operations performed only affect the specific object
+ * Variables that do not start with self, are normal local variables
+Object-oriented programming is about interaction
+Methods can affect attributes and  interact with each other.
+There's a difference between methods and functions
+  * methods require 1 argument and functions don't
+ dot notation does not have to pass self when calling methods
+ 
+Python has both constructor and initializer
+they're treated differently by the interpreter
+ 
+Initializer are used to call methods from the class and set attributes
+Constructor is not commmonly used, but must return the newly created object, and used to create meta classes
+
+Method is a function attached to a class
+self paramter is a specific instance of that class
+when you call on two different objectm you're calling the same method but different objects.
+
+Used modules with dot notation
+<module>.<element>
+can specify specific class or function 
+<element>
+all elements imported use a specific name 
+
+dont imort all classes and functions into a local namespace
+
+package is a collection of modules in a folder
+the name of the folder is the name of the pacakge
