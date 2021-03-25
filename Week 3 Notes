@@ -1,0 +1,42 @@
+Absraction is the generalization of a program, hiding the completxity of a program, showing the essential portions of the program, and reduced for code reuse.
+It is achieved through
+  1.) abstract Data Types
+  2.) Modules with Functions
+  3.) Object Oriented Classes
+  
+ Functions break up large code blocks into more managable ones, allow reuse of cold, can take zero or more parameters, and can return any number and type of result
+ 
+ To use a functino you must
+  1.) define it with zero or more parameters
+  2.) call it and it would return with zero or more results
+  
+ Functiosn allow you to abstract code
+ Required knowledge includes the parameters and the return value
+ 
+ Parameterizawtion is how an arguement is used inside the argument of a function
+ There are two types of parameters
+  1.) **Formal Paramters:** a variable & type as it apperas in definition of function or method
+  2.) **Actual Parameters:** a variable or expression that corresponds to a formal parameter in the calling environment.
+  
+ In other languages (C, C++) there are two methods to call parameters
+  1.) Call by Value - method of passing a parameter into a function where the arguement is coied into a formal parameters, changes in the parameter does not affect anything outside the function
+  2.) Call by References for call by both the actual and formal parameters refer to the same reference value in the memory, changes made inside the function are reflected in the outside function.
+  Python's mechanism is called Call by Object, Immutable objects act like call by value and mutable objects act like call by reference.
+  
+  Python has a wide variety of modules that require importing before use
+  
+  runtime stack is a data structure used by the python interpreter to execute programs
+  * works on a first in/first out data structure
+  
+  An Area of memory holds copies of every variable defined in the local scope of a function during execution
+  formal parameteres are in the local scope.
+ 
+ a function is called starting the runtime stack
+ the activation record is stored to memory including all local variables
+ 
+ in python, functions and classes use parameters to pass information into a program
+ no special syntax is requried to handle multiple types or need to create any templates
+ this is called duck typing
+ 
+ 
+ 
