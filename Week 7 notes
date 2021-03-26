@@ -1,0 +1,42 @@
+Containers are used to  store collections of data
+
+Built in collection examples
+  1.) Lists
+  2.) Dictionaries
+  3.) Tuples
+ Collection modules are used to improve the functionality of the built in collection containers
+ 
+ Every subclass is based on object
+ if we instantiate directly we cannot add attributes or meory.
+ can create empty class objects
+ 
+ immutable collection objects stored comma seperated
+ Can be unpacked by setting equal numbers of variables to a tuple
+ 
+ Named tuples are useful for
+  1.) Knowing the attributes and values in read only format
+  2.) Need to keep attributes grouped together
+  3.) Do not need to add behavior to an object
+  4.)ideal for data only representations
+  
+Dictionaries are extremely useful mutable container that uses key/value pairs to map objects to other objects
+defaultdict avoids the need to make sure all keys are in your dictionary
+Counters takes instances of iterable elements & count each instance
+List allows you to collect elements of same type
+
+Two ways of sorting a list
+  -variable.sort()
+  -sorted(variable)
+  
+ sets are from math, an unordered collection of unique elements
+ Design patterns are the standard blueprints of software engineering
+ Any one design pattern proposes a set of objects interacting in a specific way to solve a general problem
+ 
+ To understand a design pattern, you need to understand the abstract base class (ABCs)
+ To create an ABC, you only define the methods without an implementation
+ 
+ The Iterator is an abstract base class (ABC) from the collections.abc module
+ defines the iterator protocal used by all loops
+ 
+ Dispatch tables are pointers to functions or methods
+ Call the dictionary and pass any parameters
