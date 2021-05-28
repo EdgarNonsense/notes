@@ -1,0 +1,47 @@
+** Recursion **
+Computers are made up of hardwares and algorithms are what make the hardwares useful
+Algorithms:
+  -Process or rules to be followed with a finite sequence
+  –Well-defined instructions used by computers to solve problems
+  –Mathematically oriented process for problem solving
+Alogrithms help programmsers think about certain problems, and help us learn to isolate components of a problem, define relationships between compoenents.
+
+Algorithms are essential for ocmputer science and intelligent systems, as well as many other things. It also plays a key role in technological innovations, it also improves problem solving and analytical thinkings
+
+Key elements of Algorithm include
+  1.) Sequiential Operations
+  2.) Actions bbased on the state of a data structure
+  3.) Iteration, repeating an action a number times
+  4.) Recursion, calling itself on a subset of inputs
+ 
+ Algorithm Desigh Paradigms:
+  1.) Divide and conquer
+    - Breaks a problem into smaller problems, combines the results into a solution
+  2.) Greedy Algorithms
+    - Optimizing for the shortest pth to a solution
+  3.) Dynamic Prgoramming
+    - Useful when sub problems overlap, results are ached & used later
+    
+What is recurion?
+  1.) A function that calls itself is recursive
+  2.) the process of calling itself is called recursion
+  
+What does recursion require?
+  - Minimum of 1 arguement for testing the base case
+  - Minimum of 1 decision to continue or exit the recursion
+
+Factorials are a mathematical operation used in many areas,
+  - It is the product of all positive integers less than or equal to n
+  - it is denoted as n!
+  A use is to count distinct sequences of distinct n! object, known as permutations
+  
+ Recursion and iteration are similar since recursion is a special case of iteration called a tail iteartion, for and while loops are also iterations, and both recursion and iteration requrire a selection statement to end.
+ Recursion and Iteration differ as recursion repeatedly calls a function while iterations go through a sequence of operations
+ 
+ Recursion have limits, the module sys can tell you the limits of the recursion and help you increase the limit.
+ 
+ Different designs of recursion include
+  1.) Backtracking - Good for problems where you must choose options
+    - Depending on the choices made, it would reach the end goal or backtrack to a previous node
+  2.) Divide and Conquer - Consist of Dividing the Problem, Solving the subproblems, and combining the solution
+ 
