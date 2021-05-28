@@ -1,0 +1,42 @@
+**Data Representation in Memory**
+
+__**What is Binary?**__
+  It's a Base-2 Number system,
+  Digits in binary are referred as bit
+  
+Data stored in memory is converted to binary bits and are either 1 or 0
+Computers use groups of 8-bits which equals to 1 byte which is equivalent to the value 0 - 255
+The longer the information, the longer the binary string.
+
+Integers are usually limited by the bits an operating system supports.
+In py, the operating system does not dictate the max size of integer as python uses an arbitrary precision integer for integers
+all the integers that are represented as a bignum
+So the bigger memory you have the bigger integer you can go up to.
+
+Python uses either a 32 bit or a 16 bit unsigned integer array and convert the integer from base 10 to base 2^30
+
+Intgers -5 to 256 are preallocated during initialization
+  - New variables point at an alreay allocate integer
+  - Saves memory as allocated integer take a minimum of 28 bytes.
+Floating Point numbers in computers are represented as base 2 fractions
+  - Value before the decimal is converted to binary
+  - Value after the decimal is  converted similar to integers but using fractional values
+ In python, floats are not exact for some numbers, i.e (1/3 = 0.3, 0.33, 0.3333333) and not exactly 1/3
+Python 3 uses Unicode Representation for str types, unicode strings can take up to 4 bytes per character, however it has high memory cost, so to reduce it, it uses 3 types of internal representaion of UNicode stirngs.
+  1 byte per character (Latin-1 encoding)
+  2 byte per character (UCS-2 encoding)
+  4 bytes per character(Ucs -4 encoding)
+Unicode come in different schemes,
+  - UTF -32 is a fixed length encoding scheme where the character is a 32 bit binary unmber
+  - UTF-8 is a widely used varible length encoding scheme where representation can be 8, 16, 24, 32
+  - UTF - 16 is a variable length encoding scheme that is more complex than UTF -8
+Unicode uses hexadecimal, which is converted to binary
+
+IF a character can fit in the ascii range, encoded as 1-byte latin-1 encoding, else determine where the character fits in the ascii text range & selects 2 bytes or 4 bytes
+
+Memory is aloocated based on heaps and stacks,
+a private heap contains python objects and data structures
+Methods and variables are creaded in stack memory
+objects and instance variables are created in heap memory
+
+If you even want to check the performance of your code run **cProfile** or **profile**
