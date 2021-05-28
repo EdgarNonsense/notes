@@ -1,0 +1,36 @@
+Trees are Hiearchical form of data structure
+ - has a parent child relationship between items
+ used for
+ - parsing expressions
+ -searches
+ -documents like xml
+
+**Terminology of Trees**
+Node: any structure that holds data
+Root Node: node from which all other nodes come from
+Sub-Tree: a tree with its nodes as a descendant of another tree
+Degree: the number of sub-trees of a given node
+Leaf Node: node with a degree of 0
+Edge: connection between two nodes
+Parent: a node in the tree with other connecting nodes
+Child: a node connected to a parent
+Sibling: all nodes with the same parent
+Level: the number of connection from the root node
+Height: number of levels in a tree
+Depth: number of edges from the root to a node
+
+a tree structure is build out of nodes
+and it forms a parent child relationships
+
+binary trees is one in which each node has only 2 children maximum, and each child is identified as left or right of parent
+nodes are structured to allow for efficient search
+Insert and remove operation is required to make binary search usable.
+method to find the minimum and maximum nodes
+method to search the tree
+
+traversal means to visit all the nodes in a tree
+- can be done depth first or breadth first
+depth first means following the edge to the limit before going up
+breadth first means start at the root and viist each level completely before moving to the next level
+
+binary search tree reduces the number of comparison to find a value
