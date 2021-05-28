@@ -1,0 +1,49 @@
+Stakcs are a data structure organized like a stack of plates.
+the last item added to the stack is the first removed from the stack
+stack operations includes: pop push and peek
+
+stacks are used for tracking return address in function call, and passing data into functions
+
+push - used to add an element to the top of the stack
+pop - used to remove an element from the top of a stack
+peek - used to return to the top element from the stack
+
+queues are a special type of list data structure,
+it is first in, first out, there are no strict rules for queues.
+
+Initialization sets an items variable to an empty list
+methods add and rmeove elements at index 0
+enqueuue adds elements at index 0
+dequeue removes elements at index 0
+
+stack based queues are used to show push and pop
+two lists will show what is currrently in the list
+then on pop it will show the order of the elements exiting the list
+
+printers have a queue for the printer job
+OS have a queue for CPU procressing
+Media Players have a queue for playlist
+
+Hashing is a way to convert data from an arbitrary size into data of a fixed size.
+
+numerical value represents the conveted data types, and are used with dictionares to conver the keys into a value used with a traditional array
+
+perfect hasing is where a data structure being converted is guaranteed to be unique
+collisions happen when two data structres have the same values
+
+a hast table is a form of a list of elements access by keyword rather than an index number
+dictionary is a form of a hash table
+can be any structure that forms key value pairs
+
+strings are easy to convert into keys for hash tables
+for non-string keys, you will need to make modificiations
+
+original hash table class had a hard coded size
+slots will fill up so it will need to grow
+
+need to calculat the load factor then increase as it approaches to 1
+
+chaining is a strategy to resolve conflicts and avoid the limit to number elements in a hash table
+rather than ptting none in the slots, use an empty list
+- each slot can hold multiple items
+- avoids conflicts by allowing multiple elements to have the same hash value
