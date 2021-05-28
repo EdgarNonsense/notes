@@ -1,0 +1,37 @@
+Arrays are datatype similar to lists
+it require an array module and declared data type
+it can save a significant amoutn of memory
+
+Pointers are the link between the mmeory address values that are references by variables
+set() value stored in memory
+s the variable that references the memory address
+id(s) the memory address for the value stored in s
+
+Pointers are lists of items that can be spread out in memory, and it contain links to other items in the pointer, it requires types of links and depends on the structure of the link.
+it doesnt require sequential memory storage, and can start small to grow arbitririly.
+it comes at a cost, and each value stored will contain that value plus the location id for the next code.
+
+The concept of a node is at the heart of lsits,
+a node is a container of data with 1 or more links to other nodes. 
+A string is not stored in the variable node,  it is pointed at the actual string.
+end points are the last element that point at none
+
+singly linked lists can only move in one direction
+so can go from beginning to end, but cannot go back to the first node
+it requires too much manual work, is prone to errors, and too much of the inner working is exposed to the programmer
+
+double linked lists can move in either directions
+
+circular linked list is where the first and last node is conencted, and creates interesting loops
+
+a basic data structure is sometimes called rwos, which is a ollection of fields or elements, and has a fixed number of fields that are named.
+it record data types and describes teh varialbes and values, and can exist in any sotrage medium
+
+Strings are an ordered sequence of characters that are immutable.
+an indesx is a location value for a specific character in a string, the first character starts at 0
+len() can be used to determine the length of the stinrg and the last index point will be len(myString) - 1
+
+slicing is essentially taking a segment of a string for use within start and end points
+operator [n:m] is used to take a segment of the string from n t om.
+
+string comparison, relational operators work on string when doing comparisons. Equality is an especially useful comparison.
