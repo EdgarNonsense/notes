@@ -1,0 +1,27 @@
+Algorithms are just steps and processes that form a program, classification shcemese are based off the goals of the algorithm
+Major modes of classification include
+  - Classification by Implementation
+  - classification by Complexity
+  - Classification by Design
+  
+Classification by Implmentation inclused
+  - Recursion: algorithm that calls itself till a condition is satisfied
+  - Logical: algorithm with controlled logical deduction
+    - Logic component determines meaning; control affects efficiency
+    – Expressed as algorithm = logic + control
+  - Serial: algorithm executed sequentially 1 instruction at a time
+  - Parallel: algorithm that performs > 1 operation at a time
+  - Deterministic: produces the same result every time
+  - Nondeterministic: can change the order of execution to get a new result each time
+  
+Classification by Complexisty is determined by the memory space and time used in computation
+Classification by design includes 
+- Dynamic Programming: Divide a problem into smaller sub problems 
+- Divide and Conquer: Problem-solving emphasizes the need to break down a problem into smaller problems
+- Greedy Algorithms: make decisions that yield the largest benefit in the interim
+
+P-type is a class of problems computer solve
+NP-type is a harder class of problems that computer olve
+
+A problem is NP-Hard if all other problem in NP can be polynomial time reducible or mapped to it
+A problem is NP-complete problem if the NP is hard and found in NP class
